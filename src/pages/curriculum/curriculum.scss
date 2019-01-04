@@ -1,0 +1,15 @@
+page-curriculum {
+  .swiper-pagination-bullet {
+    background: black;
+  }
+  .swiper-slide {
+    align-items: flex-start;
+  }
+
+  .background {
+    background: url(../../assets/imgs/curriculum_Border.png) no-repeat center center;
+    background-size: cover;
+    background-color: white;
+    color : black;
+  }
+}

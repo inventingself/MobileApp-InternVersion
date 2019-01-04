@@ -1,0 +1,46 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Brain Breaks</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <div align="center">
+      <!-- <img height="150" width="120" src="../../assets/imgs/brain-break-logo.png"> -->
+    </div>
+
+    <div padding-bottom>  
+      <button ion-button round full (click)="take5Modal()" >
+        Take 5
+      </button>
+    </div>
+
+    <div padding-bottom>
+      <button ion-button round full (click)="chimeBreathModal()">
+          Chime Breath
+        </button>
+    </div>
+
+    <div padding-bottom>
+      <button ion-button round full (click)="colorTimeModal()">
+        Color Time
+      </button>
+    </div>
+
+    <div padding-bottom>
+      <button ion-button round full>
+        Get Outside
+      </button>
+    </div>
+
+    <div padding-bottom>
+        <button ion-button round full>
+          Equal Breaths
+        </button>
+      </div>
+
+  </ion-content>
+  
